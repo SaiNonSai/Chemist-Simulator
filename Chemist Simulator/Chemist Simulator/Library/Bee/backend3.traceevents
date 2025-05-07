@@ -1,0 +1,453 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1733486296582409, "dur":20201, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733486296602618, "dur":111, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733486296602777, "dur":426, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733486296603332, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1733486296603474, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1733486296604022, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733486296604674, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733486296604821, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733486296603217, "dur":3003, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733486296606222, "dur":735436, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733486297341684, "dur":85, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733486297341769, "dur":212, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733486297342183, "dur":770, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1733486296604437, "dur":1899, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733486296606340, "dur":542, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733486296606882, "dur":453, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733486296607335, "dur":4627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733486296612083, "dur":1763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733486296613862, "dur":110258, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296613847, "dur":110276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296724154, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296725531, "dur":31011, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296725504, "dur":31040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296756590, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296757405, "dur":77039, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296757378, "dur":77068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296834467, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296836028, "dur":32183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296836016, "dur":32197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296868240, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296869106, "dur":86121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296869082, "dur":86147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296955260, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296956270, "dur":236391, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486296956234, "dur":236431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486297192698, "dur":3386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486297196106, "dur":38026, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486297196089, "dur":38045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486297234201, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486297235375, "dur":65138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486297235359, "dur":65156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486297300544, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733486297301267, "dur":40417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733486296604850, "dur":1544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733486296606395, "dur":251, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733486296606646, "dur":218, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733486296606865, "dur":530, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733486296607396, "dur":4555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733486296612033, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1733486296612090, "dur":1774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733486296613883, "dur":34395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296613866, "dur":34414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296648298, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296649798, "dur":120922, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296649779, "dur":120944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296770753, "dur":7314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296778093, "dur":55488, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296778070, "dur":55514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296833617, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296837318, "dur":145668, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296837289, "dur":145699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296983019, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296985315, "dur":112198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486296985296, "dur":112219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297097661, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297099793, "dur":33431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297099759, "dur":33467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297133242, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297136258, "dur":76830, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297136243, "dur":76848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297213131, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297215691, "dur":37479, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297215667, "dur":37505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297253198, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733486297253963, "dur":87701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733486296604679, "dur":1691, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733486296606373, "dur":357, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733486296606730, "dur":224, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733486296606964, "dur":5003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733486296612002, "dur":77, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1733486296612092, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1733486296612174, "dur":1676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733486296613875, "dur":84526, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296613850, "dur":84553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296698458, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296699793, "dur":52836, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296699757, "dur":52874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296752662, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296753706, "dur":93421, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296753691, "dur":93438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296847152, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296849547, "dur":39154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296849533, "dur":39171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296888735, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296890082, "dur":35656, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296890066, "dur":35674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296925763, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296927706, "dur":330086, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486296927684, "dur":330110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486297257822, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733486297258745, "dur":82943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733486296603796, "dur":2465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733486296606266, "dur":278, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733486296606545, "dur":203, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733486296606749, "dur":221, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733486296606971, "dur":4971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733486296612089, "dur":1762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733486296613866, "dur":124700, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296613852, "dur":124717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296738581, "dur":140, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733486296738727, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296739723, "dur":39773, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296739691, "dur":39807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296779545, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296780458, "dur":74996, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296780438, "dur":75017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296855463, "dur":89, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733486296855557, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296856652, "dur":111166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296856622, "dur":111198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296967839, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296969157, "dur":180844, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486296969138, "dur":180865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486297150037, "dur":3651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486297153717, "dur":71338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486297153694, "dur":71364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486297225085, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486297226332, "dur":41240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486297226314, "dur":41260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486297267586, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733486297268092, "dur":73598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733486296603864, "dur":2408, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733486296606275, "dur":417, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733486296606692, "dur":213, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733486296606906, "dur":478, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733486296607384, "dur":4580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733486296612095, "dur":1750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733486296613865, "dur":55796, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296613846, "dur":55816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296669694, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296670327, "dur":42500, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296670291, "dur":42539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296713112, "dur":254, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733486296713448, "dur":468, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733486296713923, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296714898, "dur":85122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296714875, "dur":85147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296800076, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296801494, "dur":52806, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296801472, "dur":52831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296854335, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296855294, "dur":88769, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296855277, "dur":88787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296944085, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296944978, "dur":62959, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486296944964, "dur":62976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297007970, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297009149, "dur":35569, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297009133, "dur":35587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297044761, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297045599, "dur":86424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297045585, "dur":86440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297132054, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297133054, "dur":112925, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297133034, "dur":112947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297245995, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733486297246696, "dur":94958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733486296603976, "dur":2304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733486296606283, "dur":598, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733486296606882, "dur":199, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733486296607081, "dur":4886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733486296612051, "dur":83, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296612134, "dur":1757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733486296613916, "dur":32509, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296613892, "dur":32534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296647640, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296649781, "dur":46842, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296649767, "dur":46858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296696669, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296699053, "dur":81181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296699029, "dur":81207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296780258, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296781120, "dur":74690, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296781096, "dur":74715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296855846, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296858244, "dur":33742, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296858228, "dur":33760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296892006, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296892885, "dur":192126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486296892810, "dur":192204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486297085044, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486297086575, "dur":109364, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486297086528, "dur":109413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486297195970, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486297196717, "dur":121039, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486297196701, "dur":121057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486297317782, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733486297318946, "dur":22740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733486296604120, "dur":2168, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733486296606292, "dur":482, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733486296606775, "dur":213, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733486296606988, "dur":4951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733486296612003, "dur":72, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":7, "ts":1733486296612076, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1733486296612629, "dur":1228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733486296613879, "dur":205383, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486296613861, "dur":205403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486296819296, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486296820655, "dur":36867, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486296820625, "dur":36899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486296857546, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486296858872, "dur":64491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486296858852, "dur":64514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486296923378, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733486296923441, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486296924420, "dur":415179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486296924395, "dur":415206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733486297339614, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296603677, "dur":2557, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733486296606239, "dur":5693, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733486296611943, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/10612351828954524910.rsp" }}
+,{ "pid":12345, "tid":8, "ts":1733486296612024, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/Year 3/Chemist_Simulator/Chemist Simulator/Chemist Simulator/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":8, "ts":1733486296612810, "dur":529, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733486296613856, "dur":32284, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296613847, "dur":32296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296647024, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296650441, "dur":194457, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296650422, "dur":194479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296844913, "dur":95, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733486296845015, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296846630, "dur":95837, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296846616, "dur":95853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296942499, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296943487, "dur":48306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296943470, "dur":48326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296991807, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733486296991870, "dur":3627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296995527, "dur":334721, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486296995499, "dur":334751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486297330270, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733486297331667, "dur":9993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733486296604157, "dur":2156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733486296606316, "dur":369, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733486296606685, "dur":244, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733486296606929, "dur":465, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733486296607394, "dur":4567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733486296612094, "dur":1780, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733486296613896, "dur":51370, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486296613875, "dur":51393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486296665324, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486296666141, "dur":301582, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486296666107, "dur":301619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486296967759, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486296969982, "dur":196795, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486296969933, "dur":196846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486297166791, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733486297166866, "dur":14627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486297181518, "dur":59834, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486297181499, "dur":59856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486297241369, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733486297241439, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733486297242274, "dur":99388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733486296604194, "dur":2127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733486296606324, "dur":469, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733486296606793, "dur":213, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733486296607006, "dur":4935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733486296612080, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1733486296612143, "dur":1717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733486296613900, "dur":221791, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486296613863, "dur":221830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486296835714, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486296836983, "dur":32288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486296836956, "dur":32317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486296869293, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486296870516, "dur":124182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486296870486, "dur":124214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486296994720, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486296995729, "dur":52821, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486296995712, "dur":52840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297048582, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297051192, "dur":43827, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297051130, "dur":43892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297095034, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733486297095109, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297096536, "dur":118255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297096520, "dur":118273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297214828, "dur":8794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297223649, "dur":79760, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297223628, "dur":79783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297303433, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733486297304121, "dur":37568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733486296604429, "dur":1900, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733486296606332, "dur":484, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733486296606816, "dur":261, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733486296607077, "dur":4889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733486296611970, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1733486296612032, "dur":127, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1733486296612159, "dur":1714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733486296613891, "dur":36084, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296613874, "dur":36103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296649996, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296653337, "dur":96416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296653321, "dur":96435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296749791, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296750799, "dur":96406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296750779, "dur":96428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296847222, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296848883, "dur":61212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296848858, "dur":61240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296910128, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296911128, "dur":145764, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486296911109, "dur":145785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486297056952, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486297058424, "dur":39854, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486297058382, "dur":39898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486297098299, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486297099774, "dur":144924, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486297099758, "dur":144942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486297244730, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733486297245897, "dur":95759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733486296604524, "dur":1821, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733486296606349, "dur":536, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733486296606885, "dur":519, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733486296607404, "dur":4542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733486296612042, "dur":83, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1733486296612126, "dur":1742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733486296613891, "dur":54728, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296613872, "dur":54749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296668666, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296669509, "dur":84501, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296669474, "dur":84538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296754046, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296755184, "dur":34490, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296755122, "dur":34554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296789689, "dur":61, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733486296789756, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296790983, "dur":101592, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296790941, "dur":101636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296892614, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296894050, "dur":142969, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486296894037, "dur":142984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486297037052, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486297038228, "dur":160178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486297038204, "dur":160203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486297198432, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486297199213, "dur":67276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486297199197, "dur":67293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486297266515, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733486297267461, "dur":74221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733486296604552, "dur":1801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733486296606356, "dur":363, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733486296606719, "dur":201, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733486296606920, "dur":446, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733486296607367, "dur":4587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733486296612096, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1733486296612180, "dur":1692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733486296613902, "dur":35464, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296613877, "dur":35491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296649389, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296652259, "dur":62371, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296652243, "dur":63728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296715993, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296717397, "dur":147116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296717372, "dur":147144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296864571, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296866126, "dur":51432, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296866109, "dur":51451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296917574, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733486296917634, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296919230, "dur":284328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486296919210, "dur":284351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486297203594, "dur":4083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486297207712, "dur":131746, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486297207683, "dur":131777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486297339490, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733486297340444, "dur":1252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1733486296604587, "dur":1775, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1733486296606365, "dur":555, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1733486296606921, "dur":442, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1733486296607363, "dur":4596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1733486296612005, "dur":74, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1733486296612092, "dur":74, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1733486296612166, "dur":1716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1733486296613904, "dur":158824, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486296613885, "dur":158857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486296772786, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486296776594, "dur":43201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486296776561, "dur":43236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486296820877, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1733486296819844, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486296820983, "dur":70606, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486296820962, "dur":70629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486296891613, "dur":4835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486296896471, "dur":113756, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486296896452, "dur":113777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297010252, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297011028, "dur":89890, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297011012, "dur":89907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297100940, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297101999, "dur":55582, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297101956, "dur":55628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297157612, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297158462, "dur":72240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297158442, "dur":72263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297230736, "dur":2717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297233477, "dur":84488, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297233459, "dur":84507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297317981, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733486297318950, "dur":22729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1733486296604709, "dur":1669, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1733486296606381, "dur":385, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1733486296606767, "dur":226, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1733486296606993, "dur":4970, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1733486296612082, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1733486296612151, "dur":1703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1733486296613880, "dur":32527, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486296613856, "dur":32553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486296647079, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486296650212, "dur":239918, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486296650191, "dur":239940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486296890149, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486296892568, "dur":236912, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486296892549, "dur":236935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486297129517, "dur":4714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486297134250, "dur":48532, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486297134234, "dur":48551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486297182810, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486297184094, "dur":63248, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486297184077, "dur":63266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486297247363, "dur":3499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733486297250866, "dur":90814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1733486296604754, "dur":1632, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1733486296606389, "dur":484, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1733486296606873, "dur":553, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1733486296607426, "dur":4549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1733486296612005, "dur":112, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Year 3/AT/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1733486296612117, "dur":1731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1733486296613890, "dur":32886, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486296613849, "dur":32929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486296647024, "dur":3159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486296650216, "dur":42352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486296650185, "dur":42386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486296692615, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486296693663, "dur":299268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486296693645, "dur":299288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486296992986, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486296994639, "dur":267860, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486296994610, "dur":267892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486297262529, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Year 3/AT/Chemist Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733486297263453, "dur":78216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733486297344570, "dur":808, "ph":"X", "name": "ProfilerWriteOutput" }
+,
